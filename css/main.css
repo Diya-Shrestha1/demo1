@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "EB Garamond", serif;
+}
+
+.navbar{
+    width:85%;
+    margin-left:450px ;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration:none;
+    color:#fff;
+    text-transform: uppercase;
+}
+.main{
+    width: 30%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 12px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: #f2f2f2;
+}
+.name-input{
+    margin: 15px;
+}
+.pnumber-input{
+    margin: 15px;
+}
+.date-input{
+    margin: 15px;
+}
+.time-input{
+    margin: 15px;
+}
+.peoplenum-input{
+    margin: 15px;
+}
+.comment-input{
+    margin: 15px;
+}
+
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 40%;
+    padding: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 15px;
+
+}
+button:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
